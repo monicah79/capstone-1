@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-page {
+  background-color: aliceblue;
+}
+
+header {
+  display: flex;
+  margin: 30px;
+}
+
+.logo {
+  padding: 10px;
+  font-weight: 700;
+}
+
+.nav-1 {
+  display: flex;
+  gap: 90%;
+}
+
+.list {
+  display: flex;
+  gap: 30%;
+  list-style: none;
+  font-weight: 300;
+  color: darkblue;
+  margin: 20px;
+  padding: 16px;
+}
+
+.list-li {
+  color: red;
+  list-style: none;
+}
+
+.cover {
+  background-image: url(Images/background.cov.jpg);
+}
+
+.btn {
+  border: 2px solid red;
+  color: red;
+}
+
+.first {
+  font-weight: 400;
+  align-items: center;
+  margin: 20px;
+  padding-top: 70px;
+  color: orangered;
+}
+
+.second {
+  font-weight: 900;
+  align-content: center;
+  color: red;
+  margin: 20px;
+}
+
+.second-pr {
+  margin: 20px;
+  font-weight: 400;
+  color: navy;
+}
+
+.dates {
+  font-weight: 700;
+  margin: 20px;
+}
+
+.card-section {
+  background-color: black;
+}
+
+.card-main {
+  align-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  padding: 16px;
+  margin: 20px;
+  background-color: gray;
+}
+
+.cards-hd {
+  color: orangered;
+}
+
+.cards-pr {
+  color: #fff;
+}
+
+.card-btn {
+  color: #fff;
+  border: none;
+  margin: 50px;
+  justify-content: center;
+}

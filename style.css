@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
+
 html,
 body {
   overflow-x: hidden;
@@ -13,7 +14,7 @@ body {
 }
 
 .main-page {
-  background-color: lightgray;
+  background-color: #fff;
   margin: 0;
 }
 
@@ -91,7 +92,7 @@ header {
 .show-links a {
   color: #fff;
   display: flex;
-  font-family: 'Lato', sans-serif;
+  font-family: 'cocogoose', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -134,8 +135,6 @@ header {
 .first {
   font-weight: 400;
   padding: 0 10px;
-
-  /* padding-top: 70px; */
   color: #ec5242;
 }
 
@@ -215,7 +214,7 @@ header {
   }
 
   .btn {
-    border: 5px solid #ec5242;
+    border: 2px solid #ec5242;
     color: #ec5242;
     display: flex;
     font-size: 15px;
@@ -364,7 +363,7 @@ header {
 }
 
 .speakers-section {
-  background-color: #d3d3d3;
+  background-color: #fff;
 }
 
 .spks-main {

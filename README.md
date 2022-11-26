@@ -13,11 +13,11 @@
 
 
 ## Live Demo 
-[Live Demo Link](https://monicah79.github.io/capstone-project/)
+[Live Demo Link](https://monicah79.github.io/capstone-1/)
 
 
 ## Project Presentation
-[]
+[live Loom Link](https://www.loom.com/share/37541db9052c47bd80e8bb9abe57c678)
 
 
 
@@ -51,9 +51,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to anyone whose code was used 
 - Inspiration
-- etc
+- Cindy shin
 
 ## 📝 License
 

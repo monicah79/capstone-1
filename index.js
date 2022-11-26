@@ -65,7 +65,7 @@ const speakers = [
 
 const speakersContainer = document.querySelector('.spks-main');
 window.addEventListener('DOMContentLoaded', () => {
-  const speakersString = speakers.map((item) => `  <div class="speakers">
+  const speakersString = speakers.map((item) => `  <article class="speakers">
         <div class="img-tg">
            <img  src=${item.image} alt="">
         </div>
@@ -74,7 +74,7 @@ window.addEventListener('DOMContentLoaded', () => {
             <h3 class="h3-h3">${item.occupation}</h3>
             <p class="p2-p3">${item.description}</p>
         </div>
-    </div>`)
+    </article>`)
     .join('');
   speakersContainer.innerHTML = speakersString;
 });

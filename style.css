@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
-
 html,
 body {
   overflow-x: hidden;
@@ -573,7 +572,7 @@ header {
 .lst-part {
   display: flex;
   justify-content: center;
-  background: #fff;
+  background: #272a31;
 }
 
 .lst-logo {
@@ -581,11 +580,11 @@ header {
 }
 
 .lst-name {
-  color: #272a31;
+  color: #fff;
 }
 
 .lst-pr {
-  color: #272a31;
+  color: #fff;
 }
 
 .lg-lst {
@@ -596,7 +595,7 @@ header {
 .log-lst {
   padding: 10px;
   font-weight: 700;
-  color: #272a31;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -610,15 +609,15 @@ header {
   .lst-part {
     display: flex;
     justify-content: center;
-    background: #272a31;
+    background: #fff;
   }
 
   .lst-name {
-    color: #fff;
+    color: #272a31;
   }
 
   .lst-pr {
-    color: #fff;
+    color: #272a31;
   }
 
   .lg-lst {
@@ -629,6 +628,6 @@ header {
   .log-lst {
     padding: 10px;
     font-weight: 700;
-    color: #fff;
+    color: #272a31;
   }
 }

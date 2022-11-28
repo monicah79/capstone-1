@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
-
 html,
 body {
   overflow-x: hidden;
@@ -60,11 +59,6 @@ header {
   padding: 10px;
   display: none;
 }
-
-/* .list-li {
-  color: #ec5242;
-  list-style: none;
-} */
 
 .menu {
   cursor: pointer;
@@ -204,7 +198,7 @@ header {
     text-align: center;
   }
 
-  .list-la{
+  .list-la {
     color: #ec5242;
     display: flex;
     font-size: 15px;
@@ -224,12 +218,6 @@ header {
     text-decoration: none;
     font-size: 15px;
   }
-
-  /* ul .list-li {
-    color: #ec5242;
-    list-style: none;
-    text-decoration: none;
-  } */
 
   .btn {
     border: 2px solid #ec5242;
@@ -383,7 +371,7 @@ header {
 
 .speakers-section {
   background-color: #d3d3d3;
-  font-family: 'cocogoose-regular', sans-serif;;
+  font-family: 'cocogoose-regular', sans-serif;
 }
 
 .spks-main {

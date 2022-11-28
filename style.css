@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
+
 html,
 body {
   overflow-x: hidden;
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'cocogoose-regular', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -45,6 +46,12 @@ header {
   display: flex;
 }
 
+.list-li {
+  color: #ec5242;
+  list-style: none;
+  display: none;
+}
+
 .list {
   gap: 30%;
   list-style: none;
@@ -54,20 +61,21 @@ header {
   display: none;
 }
 
-.list-li {
+/* .list-li {
   color: #ec5242;
   list-style: none;
-}
+} */
 
 .menu {
   cursor: pointer;
   align-self: center;
+  display: block;
 }
 
 .bar {
   display: block;
-
-  /* width: 35px; */
+  padding: 3px;
+  width: 35px;
   margin: 4px auto;
   background-color: black;
   height: 2px;
@@ -91,7 +99,7 @@ header {
 .show-links a {
   color: #fff;
   display: flex;
-  font-family: 'cocogoose', sans-serif;
+  font-family: 'cocogoose-regular', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -196,6 +204,15 @@ header {
     text-align: center;
   }
 
+  .list-la{
+    color: #ec5242;
+    display: flex;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px;
+    text-decoration: none;
+  }
+
   .list {
     display: flex;
     gap: 20px;
@@ -204,19 +221,21 @@ header {
     color: #272a31;
     padding: 5px;
     align-items: center;
+    text-decoration: none;
+    font-size: 15px;
   }
 
-  .list-li {
+  /* ul .list-li {
     color: #ec5242;
     list-style: none;
     text-decoration: none;
-  }
+  } */
 
   .btn {
     border: 2px solid #ec5242;
     color: #ec5242;
     display: flex;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     padding: 5px;
     text-decoration: none;
@@ -341,6 +360,7 @@ header {
 @media (min-width: 768px) {
   .card-section {
     margin: 0;
+    font-family: 'cocogoose-regular', sans-serif;
   }
 
   .cards {
@@ -362,7 +382,8 @@ header {
 }
 
 .speakers-section {
-  background-color: #fff;
+  background-color: #d3d3d3;
+  font-family: 'cocogoose-regular', sans-serif;;
 }
 
 .spks-main {

@@ -219,6 +219,11 @@ header {
     font-size: 15px;
   }
 
+  .go {
+    text-decoration: none;
+    color: #272a31;
+  }
+
   .btn {
     border: 2px solid #ec5242;
     color: #ec5242;
@@ -613,6 +618,22 @@ header {
     justify-content: center;
     gap: 5%;
     flex-direction: row;
+  }
+
+  .f2-a {
+    background: #272a31;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .f2-ala {
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .f2-p {
+    color: #fff;
   }
 
   .lst-part {

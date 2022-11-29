@@ -1,9 +1,13 @@
 # capstone-1
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # CAPSTONE-1
-
 >capstone-1
+
+Description:
+This  procject contains a work sections and about section.Its  entails Drought awarness and relief.
+Have also included contants for more information for people who would like to play part in eradicating 
+drought and learn more on awarness conserning drough and how to spread a word
+
 
 ## Built With
 
@@ -51,9 +55,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used 
-- Inspiration
-- Cindy shin
+- Author of the original design
+- Credit to cindy shin
+- Creative Commons License.
 
 ## 📝 License
 

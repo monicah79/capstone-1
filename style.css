@@ -485,7 +485,6 @@ header {
 
 @media (min-width: 768px) {
   .speakers-section {
-    background-color: #d3d3d3;
     font-family: 'cocogoose-regular', sans-serif;
     width: 100%;
     background: #fff;
@@ -504,14 +503,6 @@ header {
     margin: 0 auto;
     row-gap: 20px;
   }
-
-  /* .img-tg img {
-    background-image: linear-gradient(black, white);
-    height: 100px;
-    background-color: #cccc;
-    background-repeat: no-repeat;
-    background-position-x: center;
-  } */
 }
 
 .about-section {

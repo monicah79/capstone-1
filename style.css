@@ -313,13 +313,15 @@ header {
 }
 
 .fa-solid {
-  font-size: 30px;
+  font-size: 40px;
   width: 10%;
+  color: #fff;
 }
 
 .fa-brands {
-  font-size: 30px;
+  font-size: 40px;
   width: 10%;
+  color: #fff;
 }
 
 .cards-hd {
@@ -369,6 +371,23 @@ header {
     padding-top: 10px;
   }
 
+  .cards-hd {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .card-pr {
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .card-btn {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+  }
+
   .btn-2022 {
     display: none;
   }
@@ -400,17 +419,17 @@ header {
 }
 
 .h2-h2 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .h3-h3 {
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 500;
   color: #ec5242;
 }
 
 .p2-p3 {
-  font-size: 8px;
+  font-size: 15px;
   font-weight: 100;
   color: #272a31;
 }
@@ -465,8 +484,16 @@ header {
 }
 
 @media (min-width: 768px) {
+  .speakers-section {
+    background-color: #d3d3d3;
+    font-family: 'cocogoose-regular', sans-serif;
+    width: 100%;
+    background: #fff;
+  }
+
   .card-main {
     padding: 20px 0;
+    color: #272a31;
   }
 
   .spks-main {
@@ -477,6 +504,14 @@ header {
     margin: 0 auto;
     row-gap: 20px;
   }
+
+  /* .img-tg img {
+    background-image: linear-gradient(black, white);
+    height: 100px;
+    background-color: #cccc;
+    background-repeat: no-repeat;
+    background-position-x: center;
+  } */
 }
 
 .about-section {
@@ -586,7 +621,7 @@ header {
 .lst-part {
   display: flex;
   justify-content: center;
-  background: #272a31;
+  background: #fff;
 }
 
 .lst-logo {
@@ -594,11 +629,11 @@ header {
 }
 
 .lst-name {
-  color: #fff;
+  color: #272a31;
 }
 
 .lst-pr {
-  color: #fff;
+  color: #272a31;
 }
 
 .lg-lst {
@@ -609,7 +644,7 @@ header {
 .log-lst {
   padding: 10px;
   font-weight: 700;
-  color: #fff;
+  color: #272a31;
 }
 
 @media (min-width: 768px) {
@@ -621,33 +656,39 @@ header {
   }
 
   .f2-a {
-    background: #272a31;
+    background: #fff;
     display: flex;
     justify-content: center;
     gap: 5px;
+    align-items: center;
   }
 
   .f2-ala {
-    color: #fff;
+    color: #272a31;
     font-size: 25px;
+    font-weight: 600;
   }
 
   .f2-p {
-    color: #fff;
+    color: #272a31;
+  }
+
+  .f2-img {
+    width: 10%;
   }
 
   .lst-part {
     display: flex;
     justify-content: center;
-    background: #fff;
+    background: #272a31;
   }
 
   .lst-name {
-    color: #272a31;
+    color: #fff;
   }
 
   .lst-pr {
-    color: #272a31;
+    color: #fff;
   }
 
   .lg-lst {
@@ -658,6 +699,6 @@ header {
   .log-lst {
     padding: 10px;
     font-weight: 700;
-    color: #272a31;
+    color: #fff;
   }
 }
